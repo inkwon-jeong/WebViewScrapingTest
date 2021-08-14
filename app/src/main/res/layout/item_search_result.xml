@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/text_margin"
+        android:layout_marginTop="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="12sp"
+        tools:text="https://namu.wiki" />
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginHorizontal="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="아저씨(영화) - 나무위키" />
+
+    <TextView
+        android:id="@+id/item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="16sp"
+        tools:text="3. 시놉시스[편집] ... 단 하나뿐인 친구는 그를 '아저씨' 라 불렀다. 불행한 사건으로 인해 부인을 잃고 세상을 등진 채 전당포를 꾸려가며 외롭게 ..." />
+
+</LinearLayout>
